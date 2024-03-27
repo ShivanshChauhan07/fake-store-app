@@ -62,7 +62,7 @@ const HomePage = () => {
         initial={"initial"}
         animate={"final"}
       >
-        {filterProduct.length === 0 && (
+        {filterProduct?.length === 0 && (
           <h1 className="Text-xl font-semibold">No Result Found !</h1>
         )}
         {filterProduct
